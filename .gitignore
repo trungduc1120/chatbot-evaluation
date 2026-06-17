@@ -1,0 +1,40 @@
+# Môi trường ảo
+venv/
+.venv/
+env/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Secrets / cấu hình cục bộ
+.env
+*.env
+!.env.example
+
+# Dữ liệu phiên trình duyệt (Playwright) - chứa cookie đăng nhập, rất nặng
+playwright_data/
+
+# Log
+*.log
+log.html
+log.txt
+
+# Kết quả sinh ra khi chạy
+output_*.csv
+partial_*.csv
+batch_chat_results_*.csv
+batch_context_results_*.csv
+chatbot_graded_results_*.csv
+evaluation_results*.xlsx
+eval/results/
+eval/result/
+tools/excel_output/
+tools/csv output/
+
+# Hệ điều hành / IDE
+.DS_Store
+.cursor/
+.idea/
+.vscode/
